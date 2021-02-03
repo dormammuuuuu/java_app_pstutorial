@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/linear13" android:layout_width="match_parent" android:layout_height="175dp">
+        <ImageView android:id="@+id/imageview10" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_banner2" android:scaleType="fitXY"/>
+    </LinearLayout>
+    <ScrollView android:id="@+id/vscroll2" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/mainid" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="2">
+                <ImageView android:id="@+id/imageview1" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_home" android:scaleType="fitCenter"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Main Page"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/evaluateid" android:background="#e91e63" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview8" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_evaluation_white" android:scaleType="fitCenter"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#ffffff" android:id="@+id/textview8" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Evaluation!"/>
+                <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/imageview11" android:paddingRight="20dp" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="40dp" android:src="@drawable/ic_fire" android:scaleType="fitCenter"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear14" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#b71c1c" android:id="@+id/textview11" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:text="Tools"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/paintingid" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview2" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_paint" android:scaleType="fitCenter"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Painting and Tools"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/retouchid" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview3" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_retouch" android:scaleType="fitCenter"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Retouching Tools"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/selectionid" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview4" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_quickselection" android:scaleType="fitCenter"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Selection Tools"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/drawingid" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview5" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_pentool" android:scaleType="fitCenter"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview5" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Drawing and Type Tools"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/cropid" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview7" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_crop" android:scaleType="fitCenter"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview7" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Crop and Slice Tools"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/linear15" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#b71c1c" android:id="@+id/textview12" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:text="Others"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/aboutid" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/imageview13" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_about" android:scaleType="fitCenter"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview13" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Titans!"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/shareid" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageview12" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_share" android:scaleType="fitCenter"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview10" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Share"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/exitid" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/imageview9" android:layout_width="40dp" android:layout_height="30dp" android:layout_marginRight="20dp" android:src="@drawable/ic_exit" android:scaleType="fitCenter"/>
+                <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/textview9" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Exit"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

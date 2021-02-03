@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.photoshop.tutorial" platformBuildVersionCode="27" platformBuildVersionName="8.1.0">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:theme="@style/AppTheme" android:label="Basic Photoshop Tutorial" android:icon="@drawable/app_icon" android:name=".SketchApplication" android:allowBackup="true" android:largeHeap="true">
+        <activity android:name=".MainActivity" android:configChanges="orientation|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Page3Activity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".Page4Activity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".Page5Activity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".Page6Activity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".Act1Activity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".Act2Activity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".Act3Activity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".BrushActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".PencilActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".HistorybrushActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ArthistorybrushActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".Page2Activity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".SpothealingmainActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ErasermainActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".BlurmainActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".DodgemainActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".SpothealingsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ContentawaresubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".PatchsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ErasersubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".MagicerasersubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".BlursubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".SharpensubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".SmudgesubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".BurnsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".DodgesubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".SpongesubActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".LassomainActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".MovemainActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".QuickselectionmainActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".LassosubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".MlassosubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".PlassosubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".MovesubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".EllipticalsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".RectangularsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".SrowsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ScolumnsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".QselectsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".MagicwandsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".PensubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".RtoolsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".TextsubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".PenssubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".FreeformpensubActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".EvaluateActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".QuizActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:theme="@style/AppTheme.FullScreen" android:name=".SplashscreenActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ReviewerActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".AboutActivity" android:configChanges="orientation|screenSize"/>
+        <activity android:name=".DebugActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

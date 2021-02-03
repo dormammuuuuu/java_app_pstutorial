@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@+id/_toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <WebView android:layout_gravity="center" android:id="@+id/webview1" android:layout_width="match_parent" android:layout_height="200dp"/>
+        <ScrollView android:id="@+id/vscroll1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#000000" android:layout_gravity="center_horizontal" android:id="@+id/textview1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="POLYGONAL LASSO TOOL"/>
+                <TextView android:textSize="18sp" android:textColor="#000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/textview2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Similar to the lasso tool, except that instead of holding your mouse button down to draw, left-click on various points to create a selection with a series of straight edges."/>
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#000000" android:layout_gravity="center_horizontal" android:id="@+id/textview3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Using the Polygonal Lasso tool:"/>
+                <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Step 1: Select the Polygonal Lasso tool in the Tools panel.\10\10Step 2: Click and release at any point along the edge of the desired element."/>
+                <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textview5" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Step 3: Move (don’t drag) the mouse and click and release at the next corner of the element; continue clicking and releasing at the various corners of the object.\10\10Step 4: To close a selection, return to your starting point and click and release."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

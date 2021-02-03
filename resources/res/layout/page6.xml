@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@+id/_toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <WebView android:layout_gravity="center" android:id="@+id/webview1" android:layout_width="match_parent" android:layout_height="200dp"/>
+        <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#000000" android:layout_gravity="center_horizontal" android:id="@+id/textview1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CROP"/>
+        <TextView android:textSize="18sp" android:textColor="#000000" android:gravity="center_horizontal" android:id="@+id/textview2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Crop Tool cuts out a defined area deleting or hiding the rest of an image."/>
+        <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/textview3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Using the Crop tool:"/>
+        <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Step 1: Select the Crop tool on tools panel.\10\10Step 2: Drag open a rectangle on the image and release the mouse button.\10\10Step 3: Drag the rectangle handles out beyond the image size."/>
+        <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textview5" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Step 4: Press the Enter/Return key or click the green check mark to commit the new canvas size."/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

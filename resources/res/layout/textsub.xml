@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@+id/_toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <WebView android:layout_gravity="center" android:id="@+id/webview1" android:layout_width="match_parent" android:layout_height="200dp"/>
+        <ScrollView android:id="@+id/vscroll1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="30sp" android:textColor="#000000" android:layout_gravity="center_horizontal" android:id="@+id/textview1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HORIZONTAL TYPE TEXT"/>
+                <TextView android:textSize="18sp" android:textColor="#000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/textview2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="The Horizontal Type Tool creates and edits vector-based text in a separate layer."/>
+                <TextView android:textSize="18sp" android:textStyle="bold" android:textColor="#000000" android:layout_gravity="center_horizontal" android:id="@+id/textview3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Using the Horizontal type text:"/>
+                <TextView android:textSize="18sp" android:textColor="#000000" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Step 1: Select the Horizontal type text tool on tools panel.\10\10Step 2: On the Options bar, set the font options.\10\10Step 3: Click on your image and type.\10\10Step 4: You can adjust the typed text position without changing the tool."/>
+                <TextView android:textSize="16sp" android:textColor="#000000" android:gravity="center_horizontal" android:id="@+id/textview5" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To edit a previously typed text, select the proper text layer in the Layers palette or just select the text with the Type Tool (the layer has to be selected automatically) and work like with a regular text editor."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

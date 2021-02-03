@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@+id/_toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linear1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/linear3" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="#000000" android:layout_gravity="center_horizontal" android:id="@+id/scoretext2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Score:"/>
+                <TextView android:textSize="25sp" android:textStyle="bold" android:textColor="#000000" android:id="@+id/scorenumber2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0/0"/>
+            </LinearLayout>
+            <ScrollView android:id="@+id/vscroll1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@+id/linear5" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="horizontal" android:id="@+id/linear4" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="18sp" android:textColor="#b71c1c" android:id="@+id/number" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1"/>
+                        <TextView android:textSize="20sp" android:textColor="#000000" android:id="@+id/questionid" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView"/>
+                    </LinearLayout>
+                    <CheckBox android:textSize="18sp" android:textColor="#000000" android:id="@+id/checkbox1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CheckBox"/>
+                    <CheckBox android:textSize="18sp" android:textColor="#000000" android:id="@+id/checkbox2" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CheckBox"/>
+                    <CheckBox android:textSize="18sp" android:textColor="#000000" android:id="@+id/checkbox3" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CheckBox"/>
+                    <CheckBox android:textSize="18sp" android:textColor="#000000" android:id="@+id/checkbox4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CheckBox"/>
+                    <Button android:textSize="16sp" android:textColor="#000000" android:layout_gravity="center" android:id="@+id/button1" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Submit"/>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

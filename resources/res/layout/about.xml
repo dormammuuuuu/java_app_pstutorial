@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout android:theme="@style/AppTheme.AppBarOverlay" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:id="@+id/_toolbar" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/AppTheme.PopupOverlay"/>
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <ScrollView android:id="@+id/vscroll1" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/linear2" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/linear14" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="40sp" android:textStyle="bold" android:textColor="#000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/textview10" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TITAN"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear7" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                    <ImageView android:id="@+id/imageview1" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="20dp" android:src="@drawable/ic_carl" android:scaleType="fitStart"/>
+                    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:gravity="center" android:layout_gravity="center" android:id="@+id/textview4" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CARL ANDREW TANTIADO"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear8" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                    <ImageView android:id="@+id/imageview2" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="20dp" android:src="@drawable/ic_migs" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:layout_gravity="center_vertical" android:id="@+id/textview5" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MIGUEL ANDREW BRACAMONTE"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear9" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                    <ImageView android:id="@+id/imageview3" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="20dp" android:src="@drawable/ic_regine" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:layout_gravity="center_vertical" android:id="@+id/textview6" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="REGINE DEINLA"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear10" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                    <ImageView android:id="@+id/imageview4" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="20dp" android:src="@drawable/ic_matt" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:layout_gravity="center_vertical" android:id="@+id/textview7" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MATTHEW DE LEON"/>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/linear11" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                    <ImageView android:id="@+id/imageview5" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="20dp" android:src="@drawable/ic_louie" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:layout_gravity="center_vertical" android:id="@+id/textview8" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LOUIE GULTIANO"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/linear12" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                    <ImageView android:id="@+id/imageview6" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginRight="20dp" android:src="@drawable/ic_rosales" android:scaleType="fitCenter"/>
+                    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="#000000" android:layout_gravity="center_vertical" android:id="@+id/textview9" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="NICHOLAS DAVID ROSALES"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
